@@ -1,0 +1,56 @@
+body {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+header h2 {
+  margin: 0px;
+}
+
+header img {
+  width: 30px;
+}
+
+li {
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  width: 300px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+#beerIMG {
+  height: 250px;
+}
